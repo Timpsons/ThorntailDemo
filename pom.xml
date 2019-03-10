@@ -4,16 +4,16 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>online.blackwidow.thorntaildemo</groupId>
   <artifactId>thorntaildemo</artifactId>
-  <name>Thorntail Example</name>
-  <version>1.0.0-SNAPSHOT</version>
+  <name>Thorntail Demo Application</name>
+  <version>0.0.2-SNAPSHOT</version>
   <packaging>war</packaging>
 
   <properties>
-    <version.thorntail>2.3.0.Final</version.thorntail>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
+    <version.thorntail>2.3.0.Final</version.thorntail>
     <failOnMissingWebXml>false</failOnMissingWebXml>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
   <dependencyManagement>
@@ -29,13 +29,12 @@
   </dependencyManagement>
 
   <build>
-    <finalName>demo</finalName>
+    <finalName>thorntaildemo</finalName>
     <plugins>
       <plugin>
         <groupId>io.thorntail</groupId>
         <artifactId>thorntail-maven-plugin</artifactId>
         <version>${version.thorntail}</version>
-        
         <executions>
           <execution>
             <goals>
@@ -48,7 +47,6 @@
   </build>
 
   <dependencies>
-    
     <dependency>
       <groupId>io.thorntail</groupId>
       <artifactId>cdi</artifactId>
