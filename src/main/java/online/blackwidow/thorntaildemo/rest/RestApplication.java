@@ -1,4 +1,4 @@
-package online.blackwidow.thorntaildemo.thorntaildemo.rest;
+package online.blackwidow.thorntaildemo.rest;
 
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
