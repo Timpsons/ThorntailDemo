@@ -1,0 +1,5 @@
+# Compile Artefacts
+target/
+
+# IntelliJ Settings
+/.idea/
